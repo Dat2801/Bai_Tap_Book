@@ -4,9 +4,10 @@ public class Book {
     private double price;
     private String author;
 
-    public Book(){}
+    public Book() {
+    }
 
-    public Book(int bookCode, String name, double price,String author) {
+    public Book(int bookCode, String name, double price, String author) {
         this.bookCode = bookCode;
         this.name = name;
         this.price = price;

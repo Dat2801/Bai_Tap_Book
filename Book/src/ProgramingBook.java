@@ -1,10 +1,7 @@
-import java.util.ArrayList;
-
 public class ProgramingBook extends Book {
 
     private String language;
     private String framework;
-    private Book book;
 
     public ProgramingBook() {
     }
@@ -38,10 +35,13 @@ public class ProgramingBook extends Book {
 
     @Override
     public String toString() {
-        return "ProgramingBook{" +
-                "language='" + language + '\'' +
+        return "ProgramingBooks{" +
+                "id sách =" + getBookCode() +
+                ",name = " + getName() +
+                ",author = " + getAuthor() +
+                ",price =" + getPrice() +
+                ",language='" + language + '\'' +
                 ", framework='" + framework + '\'' +
-                ", book=" + book+
                 '}';
     }
 }
